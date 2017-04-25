@@ -5,6 +5,11 @@
 ## getting start
 
 ```bash
+//克隆项目
+git clone https://github.com/Zhou-Hepeng/o2o.git
+//cd 进入o2o目录
+cd o2o
+//初始化工程
 npm install
 ```
 
