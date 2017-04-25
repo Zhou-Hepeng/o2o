@@ -1,6 +1,6 @@
-# appTest
+# o2o附近商家
 
-> appTest
+> o2o附近商家App版
 
 ## getting start
 
@@ -10,29 +10,29 @@ npm install
 
 ## file structure
 
-* `src/*`: all source code
-* `app.js`: entrance of the Weex page
+* `src/*`: 存放页面和组件
+* `app.js`: 入口js文件
 * `build/*`: some build scripts
-* `dist/*`: where places generated code
-* `assets/*`: some assets for Web preview
-* `index.html`: a page with Web preview and qrcode of Weex js bundle
-* `weex.html`: Web render
+* `dist/*`: 打包后存放的js目录
+* `assets/*`: 提供网站预览  url.js可以修改页面预览的js地址
+* `index.html`: web端页面预览页面
+* `weex.html`: web端页面预览页面
 * `.babelrc`: babel config (preset-2015 by default)
 * `.eslintrc`: eslint config (standard by default)
 
 ## npm scripts
 
 ```bash
-# build both two js bundles for Weex and Web
+# 最终生产命令
 npm run build
 
-# build the two js bundles and watch file changes
+# 开发模式命令（这个可以实时预览，需要和下面的npm run serve 一起使用）
 npm run dev
 
-# start a Web server at 8080 port
+# 开发模式命令（这个可以生成一个预览地址，需要和上面npm run dev 一起使用） start a Web server at 8080 port
 npm run serve
 
-# start weex-devtool for debugging with native
+# 查看bug信息
 npm run debug
 ```
 
