@@ -1,0 +1,85 @@
+/*
+Description:
+author: panchangzhi
+date: 2016/11/28
+*/
+html{
+    overflow: hidden;
+}
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 100%;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: #333;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+input{
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0;
+}
+body > div {
+    height: 100%;
+    font-family: "Microsoft YaHei"
+}
+
+/*.animation {*/
+    /*flex: 1;*/
+    /*position:absolute;*/
+    /*left:0;*/
+    /*top:0;*/
+/*}*/
+
+/*.bounce-enter-active {*/
+    /*animation: bounce-in .3s;*/
+    /*z-index:5;*/
+/*}*/
+
+/*.bounce-leave-active {*/
+    /*animation: bounce-out .8s;*/
+    /*z-index:15;*/
+/*}*/
+
+/*@keyframes bounce-in {*/
+    /*0% {*/
+        /*transform: translate3d(100%, 0, 0);*/
+    /*}*/
+    /*100% {*/
+        /*transform: translate3d(0, 0, 0);*/
+    /*}*/
+/*}*/
+
+/*@keyframes bounce-out {*/
+    /*0% {*/
+        /*transform: translate3d(0, 0, 0);*/
+    /*}*/
+    /*100% {*/
+        /*transform: translate3d(100%, 0, 0);*/
+
+    /*}*/
+/*}*/
+
+@font-face {
+    font-family: 'store';  /* project id 202331 */
+    src: url('//at.alicdn.com/t/font_tdos9ul4b4yrpb9.eot');
+    src: url('//at.alicdn.com/t/font_tdos9ul4b4yrpb9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_tdos9ul4b4yrpb9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_tdos9ul4b4yrpb9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_tdos9ul4b4yrpb9.svg#iconfont') format('svg');
+}
